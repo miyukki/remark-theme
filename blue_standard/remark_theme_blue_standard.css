@@ -86,6 +86,37 @@ h3, h4, h5, p {
 }
 
 /*
+ * Bold text
+ */
+.bold {
+    font-weight: bold;
+}
+
+/*
+ * Link text
+ */
+a {
+    color: #000;
+}
+a:hover {
+    color: #888;
+}
+.remark-slide-content.title a {
+    color: #fff;
+}
+.remark-slide-content.title a:hover {
+    color: #888;
+}
+
+/*
+ * Footnote
+ */
+.footnote {
+    color: #888;
+    font-size: 0.7em;
+}
+
+/*
  * List style
  */
 li {
