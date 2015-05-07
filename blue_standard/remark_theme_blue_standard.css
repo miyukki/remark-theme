@@ -85,6 +85,18 @@ h1, h2, h3 {
 /*
  * Decoration settings
  */
+.small img {
+    max-height: 10em;
+    min-height: 10em;
+}
+.middle img {
+    max-height: 15em;
+    min-height: 15em;
+}
+.big img {
+    max-height: 20em;
+    min-height: 20em;
+}
 .bold {
     font-weight: bold;
 }
