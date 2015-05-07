@@ -83,6 +83,21 @@ h1, h2, h3 {
 }
 
 /*
+ * List style
+ */
+li {
+    list-style: none;
+    position: relative;
+    left: -1em;
+}
+li::before {
+    content: "＊";
+    position: relative;
+    left: -0.5em;
+    color: #c0392b;
+}
+
+/*
  * Decoration settings
  */
 .small img {
