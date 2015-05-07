@@ -28,7 +28,7 @@ h3, h4, h5, p {
 .remark-slide-content.title {
     text-align: center;
 }
-.remark-slide-content.title::before {
+.remark-slide-content.title:before {
     content: '';
     position: absolute;
     top: auto;
@@ -51,7 +51,7 @@ h3, h4, h5, p {
 .remark-slide-content.title .remark-slide-number {
     color: #fff;
 }
-.remark-slide-content:not(.title):not(.blank)::before {
+.remark-slide-content:not(.title):not(.blank):before {
     content: '';
     position: absolute;
     left: 0;
@@ -62,7 +62,7 @@ h3, h4, h5, p {
     padding: 0;
     background-color: #2980b9;
 }
-.remark-slide-content:not(.title):not(.blank)::after {
+.remark-slide-content:not(.title):not(.blank):after {
     content: '';
     position: absolute;
     left: 1.2em;
@@ -93,7 +93,7 @@ li {
     position: relative;
     left: -1em;
 }
-li::before {
+li:before {
     content: "＊";
     position: relative;
     left: -0.5em;
