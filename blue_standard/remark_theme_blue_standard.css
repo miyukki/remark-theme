@@ -132,8 +132,29 @@ li:before {
 }
 
 /*
- * Decoration settings
+ * Table
  */
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+table th, td {
+    padding: 0.7em;
+    background-color: #ddd;
+}
+table th:first-child {
+    border-radius: 10px 0 0 0;
+}
+table th:last-child {
+    border-radius: 0 10px 0 0;
+}
+table tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+table tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
 .small img {
     max-height: 10em;
     min-height: 10em;
@@ -145,14 +166,4 @@ li:before {
 .big img {
     max-height: 20em;
     min-height: 20em;
-}
-.bold {
-    font-weight: bold;
-}
-.footnote {
-    color: #888;
-    font-size: 0.7em;
-}
-.footnote>a {
-    color: #888;
 }
