@@ -24,16 +24,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan ex quis f
 
 ### Bold text
 
-Lorem ipsum dolor sit amet, .bold[consectetur] adipiscing elit. Nunc .bold[accumsan] ex quis finibus egestas.
+Lorem ipsum dolor sit amet, .bold[consectetur] adipiscing elit.
 
 ### Link text
 
-Lorem ipsum dolor sit amet, [consectetur](#3) adipiscing elit. Nunc [accumsan](#3) ex quis finibus egestas.
+Lorem ipsum dolor sit amet, [consectetur](#3) adipiscing elit.
 
+### Quotation
+
+.quote[Lorem ipsum dolor sit amet, consectetur adipiscing elit.]
 
 ### Footnote
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. .footnote[*1] Nunc accumsan ex quis finibus egestas.
+Lorem ipsum dolor sit amet, consectetur .footnote[*1] adipiscing elit.
 
 .footnote[*1 Nunc accumsan ex quis finibus egestas.]
 

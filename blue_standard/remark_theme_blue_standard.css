@@ -109,6 +109,20 @@ a:hover {
 }
 
 /*
+ * Quotation
+ */
+.quote {
+    font-family: serif;
+    font-style: italic;
+}
+.quote::before {
+    content: open-quote;
+}
+.quote::after {
+    content: close-quote;
+}
+
+/*
  * Footnote
  */
 .footnote {
