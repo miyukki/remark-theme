@@ -16,6 +16,7 @@ h1, h2, h3 {
  * Heading settings
  */
 .remark-slide-content {
+    font-size: 1.5em;
     padding: 0.5em 2em;
 }
 .remark-slide-content.title {
@@ -43,7 +44,6 @@ h1, h2, h3 {
     position: relative;
     z-index: 1;
     color: #fff;
-    font-size: 1.2em;
 }
 .remark-slide-content.title .remark-slide-number {
     color: #fff;
@@ -76,10 +76,10 @@ h1, h2, h3 {
     padding: 0.25em 0 0.25em 0.5em;
 }
 .remark-slide-content h1 {
-    font-size: 3.2em;
+    font-size: 2.5em;
 }
 .remark-slide-content h2 {
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 /*
