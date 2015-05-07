@@ -146,6 +146,16 @@ li::before {
 }
 
 /*
+ * Code block
+ */
+.remark-code {
+    padding: 1em !important;
+    border-radius: 10px;
+    background-color: #ddd !important;
+    word-wrap: break-word;
+}
+
+/*
  * Table
  */
 table {
