@@ -131,17 +131,16 @@ a:hover {
 }
 
 /*
- * List style
+ * Listing style
  */
-li {
+ul>li {
     list-style: none;
     position: relative;
-    left: -1em;
 }
-li::before {
+ul>li::before {
     content: "＊";
-    position: relative;
-    left: -0.5em;
+    position: absolute;
+    left: -1.3em;
     color: #c0392b;
 }
 
